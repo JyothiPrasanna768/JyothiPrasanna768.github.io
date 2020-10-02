@@ -8462,5 +8462,65 @@ a.text-dark:hover {
     visibility: hidden!important
 }
 
+section.index-about-sec {
+    width: 100%;
+    background: url(../images/about-bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+section.index-about-sec .layer {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.59);
+    padding-top: 100px;
+    padding-bottom: 105px;
+}
+
+section.index-about-sec h5 {
+    font-size: 35px;
+    color: #000;
+    letter-spacing: -0.6px;
+    font-weight: 400;
+    margin-bottom: 31px;
+}
+
+section.index-about-sec .container>p {
+    font-size: 14px;
+    line-height: 27px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+
+section.index-about-sec ul ul {
+    text-align: left;
+}
+
+section.index-about-sec ul ul .index-abt-content {
+    padding: 30px 30px;
+    background: linear-gradient(135deg, rgba(150,150,150, 0.99) 10%, rgba(200,200,200, 0.6) 20%);
+
+}
+
+section.index-about-sec ul ul .index-abt-content h3 {
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #fff200;
+    text-transform: uppercase;
+    padding-right: 15px;
+}
+
+section.index-about-sec ul ul .index-abt-content p {
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+}
 
 /*# sourceMappingURL=bootstrap.min.css.map */
